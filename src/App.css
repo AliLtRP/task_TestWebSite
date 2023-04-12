@@ -1,38 +1,114 @@
-.App {
-  text-align: center;
+* {
+  margin: 0px;
+  padding: 0px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+header {
+  background-color: white;
+  height: 50px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: inherit;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.logo {
+  display: inline-block;
+}
+
+.navList {
+  padding-left: 20px;
+}
+
+a{
+  text-decoration: none;
+  padding: 10px;
+  color: black;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+body{
+  height: 90vh;
+  background-color: #FF6000;
+}
+
+/* form */
+
+.formClass{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 90vh;
+}
+
+.formName{
+  margin-top: 10px;
+}
+
+.formCenter{
+  /* margin: 50px; */
+  height: 52vh;
+  width: 30%;
+  background-color: white;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: row;
+}
+
+form{
   display: flex;
   flex-direction: column;
   align-items: center;
+  width: 100%;
+  height: 100%;
+}
+
+input{
+  border-radius: 5px;
+  height: 30px;
+  width: 250px;
+}
+
+button{
+  border-radius: 5px;
+  height: 30px;
+  width: 250px;
+  margin-top: 70px;
+}
+
+.dataInput{
+  display: flex;
+  flex-direction: column;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+  margin-top: 50px;
 }
 
-.App-link {
-  color: #61dafb;
+.usersSet{
+  width: 100%;
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.users{
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 52vh;
+  width: 30%;
+  background-color: aliceblue;
+  border-radius: 15px;
+}
+
+.user{
+  margin: 10px;
 }
